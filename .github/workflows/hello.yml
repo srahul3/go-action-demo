@@ -2,8 +2,7 @@ name: hello world
 
 on:
   push:
-    branches:
-      - master
+    branches: [ main ]
 
 jobs:
   Hello:
