@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Build docker image
-      run: docker build . --tag go-prog-image:$(date +%s)
+      run: docker build ./main.go --tag go-prog-image:$(date +%s)
 
     - name: Publish to docker hub!
       uses: elgohr/Publish-Docker-Github-Action@master
