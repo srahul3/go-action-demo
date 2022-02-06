@@ -1,9 +1,9 @@
 package main
 
-import {
+import (
 	"fmt"
 	"testing"
-}
+)
 
 func TestMain(t *testing.T) {
 	fmt.Println("A test which always passes!")
